@@ -1,0 +1,10 @@
+const nombre = "Alexander";
+const apellido = "Garzo";
+const estudiante = nombre.concat(" ", apellido);
+const estudianteMayus = estudiante.toUpperCase();
+const estudianteMinus = estudiante.toLocaleLowerCase();
+const espaciosEstu = estudiante.length;
+const firtsLetter = nombre.charAt(nombre.indexOf("A"));
+const lastLetter = apellido.charAt(apellido.indexOf("o"));
+const estuSinEsp = estudiante.trim();
+const isIn = estudiante.includes(nombre);
