@@ -8,7 +8,7 @@ function noParams(){
 const miPromesa = new Promise((resolve, reject)=>{
     setTimeout(()=>{
         resolve('Hola soy una promesa')
-    }, 300)
+    },5000)
 })
 
 miPromesa
